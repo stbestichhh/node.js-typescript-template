@@ -1,3 +1,3 @@
 describe('Change me', () => {
-  it('Should be defined', () => {})
-})
+  it('Should be defined', () => {});
+});

@@ -15,15 +15,17 @@
     "fmt": "prettier . --write",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "stest": "stest",
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "dependencies": {
+  "dependencies": {    
     "@stlib/utils": "^0.0.12",
     "@stlib/config": "^0.0.4-r",
     "@stlib/guard": "^1.0.1"
   },
   "devDependencies": {
+    "@stlib/testing": "^0.0.1"",
     "@eslint/js": "^9.4.0",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.2",
